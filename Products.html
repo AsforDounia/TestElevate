@@ -39,7 +39,7 @@
 
             <ul class="menu-bar">
 
-                <li>&#36;0.00</li>
+                <li id="totalPanier">&#36;0.00</li>
                 <li><i class='fas fa-shopping-cart' onclick="window.location.href='cart.html'"></i></li>
 
             </ul>
@@ -81,7 +81,6 @@
                     <label for="vol">select price range:</label>
                     <input type="range" id="vol" name="vol" min="0" max="500" oninput="updatePrice(this.value)">
                     <span id="priceValue">250$</span>
-                    <!-- <button onclick="applyFilters()">Filtrer</button> -->
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@
 
             <ul class="menu-bar">
 
-                <li>&#36;0.00</li>
+                <li id="totalPanier">&#36;0.00</li>
                 <li><i class='fas fa-shopping-cart'></i></li>
 
             </ul>
@@ -54,8 +54,8 @@
             <h5>Quantity</h5>
             <h5>Subtotal</h5>
         </div>
-        <div class="products">
-            <div class="col-4 Products Men Tops cartProducts" id="Product1">
+        <div id="cartProducts">
+            <!-- <div class="col-4 Products Men Tops cartProducts" id="Product1">
                 <div class="cartSingleProduct">
                     <div class="cartImg">
                         <img src="Images/gallery-1.jpg" onclick="showProductDetails('Product1')">
@@ -63,7 +63,7 @@
                     <div>
                         <h4>Red Printed T-shirt</h4>
                         <p>Price $150.00</p>
-                        <a href="">Remove</a>
+                        <a href="" onclick="removeFromCart('Product1')">Remove</a>
                     </div>
                 </div>
                 <div class="divInputCart">
@@ -72,7 +72,7 @@
                 <div>
                     <span>150$</span>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="total">
             <div class="cartTotalSpan">
@@ -81,7 +81,7 @@
             </div>
             <div class="cartTotalSpan">
                 <span>Tax</span>
-                <span>20$</span>
+                <span>30$</span>
             </div>
             <div class="cartTotalSpan">
                 <span>Total</span>

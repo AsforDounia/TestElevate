@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-checkout {
+    max-width: 65rem;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.order-form {
+    display: flex;
+    gap: 20px;
+}
+.etoile{
+    color: red;
+}
+.form-section{
+    width: 97rem;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    width: 29%;
+}
+
+form input,
+form select {
+    width: 69%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    
+}
+
+.summary-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    height: 500px;
+}
+
+.summary-section h3 {
+    background-color: #f04e23;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+    margin-bottom: 20px;
+}
+
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+.order-summary-span{
+    color: #52AD9C;
+}
+.payment-options label {
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.payment-info {
+    font-size: 13px;
+    color: #666;
+    padding-left: 23px;
+}
+
+.place-order {
+    width: 100%;
+    padding: 12px;
+    background-color: #52AD9C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.place-order:hover {
+    background-color: #28a065;
+}
