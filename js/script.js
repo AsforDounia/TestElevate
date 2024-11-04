@@ -405,3 +405,30 @@ function validateForm() {
     return isValid; 
 }
 
+
+
+// ============================
+// function showMenuuBar(){
+//     const menu = document.querySelector("header nav ul:nth-child(2)");
+//     menu.style.display = "block";
+// }
+
+function showMenuBar() {
+    const menu = document.querySelector(".menu-bar-side");
+    const menuIcon = document.querySelector(".fa-bars");
+    const closeIcon = document.querySelector(".fa-remove");
+
+    menu.style.display = "block"; // Show the menu
+    menuIcon.style.display = "none"; // Hide menu icon
+    closeIcon.style.display = "block"; // Show close icon
+}
+
+function hideMenuBar() {
+    const menu = document.querySelector(".menu-bar-side");
+    const menuIcon = document.querySelector(".fa-bars");
+    const closeIcon = document.querySelector(".fa-remove");
+
+    menu.style.display = "none"; // Hide the menu
+    menuIcon.style.display = "block"; // Show menu icon
+    closeIcon.style.display = "none"; // Hide close icon
+}
